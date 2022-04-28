@@ -46,7 +46,7 @@
             <?php
                 /* Mysqli query to fetch rows 
                 in descending order of scores */
-                $result = mysqli_query($link, "SELECT username, score FROM users ORDER BY score DESC LIMIT 5");
+                $result = mysqli_query($link, "SELECT username, score FROM usersWeb2 ORDER BY score DESC LIMIT 5");
 
                 /* First rank will be 1 and 
                     second be 2 and so on */
