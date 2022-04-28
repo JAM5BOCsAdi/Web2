@@ -218,6 +218,7 @@ table{
   border-spacing: 2rem 0rem;
   text-align: center;
 }
+
 tr:not(:first-child):hover{
   background-color: #63a1b4;
   cursor: pointer;
