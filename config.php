@@ -18,7 +18,7 @@ if($link === false){
 
 /* ------------------------- */
 /*
-
+For ELTE -> mysql.caesar.elte.hu
 
 $server = 'mysql.caesar.elte.hu';
 $username = 'oradam';
