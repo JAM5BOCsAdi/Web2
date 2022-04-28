@@ -3,7 +3,7 @@ session_start();
 
 require_once "config.php";
 if (isset($_POST['score']) && json_decode($_POST['score']) === 1 && isset($_SESSION['loggedin']) && $_SESSION['loggedin']) {
-    $sql = "UPDATE users SET score = score + 1 WHERE id = ?";
+    $sql = "UPDATE usersWeb2 SET score = score + 1 WHERE id = ?";
     if ($stmt = mysqli_prepare($link, $sql)) {
         mysqli_stmt_bind_param($stmt, "i", $_SESSION['id']);
 
