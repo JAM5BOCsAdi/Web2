@@ -46,7 +46,7 @@
             <?php
                 /* Mysqli query to fetch rows 
                 in descending order of scores */
-                $result = mysqli_query($link, "SELECT username, score FROM usersWeb2 ORDER BY score DESC LIMIT 5");
+                $result = mysqli_query($link, "SELECT username, score FROM users_web2 ORDER BY score DESC LIMIT 5");
 
                 /* First rank will be 1 and 
                     second be 2 and so on */
@@ -80,7 +80,5 @@
         <a href="index.php" id="back">Back</a>
     </div>   
 </div>
-
 </body>
-
 </html>
