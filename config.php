@@ -35,7 +35,6 @@ $username = 'oradam';
 $password = 'Pcn30DFTv5zMLcR5';
 $dbname = 'oradam';
 
-
 $link = mysqli_connect($server, $username, $password, $dbname);
 
 if($link === false){
