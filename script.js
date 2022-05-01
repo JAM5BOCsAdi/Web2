@@ -90,7 +90,6 @@ function startGame(){
 
     playerScoreElem.textContent = 0;
     computerScoreElem.textContent = 0;
- 
 }
 /** Paddle moves with mouse */
 document.addEventListener("mousemove", e => {
@@ -106,6 +105,3 @@ document.getElementById("startGame-end").addEventListener("click", e => {
     startGame();
 });
 //window.requestAnimationFrame(update);
-
-
-
